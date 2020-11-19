@@ -3,4 +3,4 @@
 	url = https://github.com/runningstream/hugograyscale/
 [submodule "themes/somrat"]
 	path = themes/somrat
-	url = https://github.com/Likewind/somrat/
+	url = https://github.com/Likewind/somrat.git
