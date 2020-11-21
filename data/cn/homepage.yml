@@ -1,35 +1,36 @@
 ############################## navigation ###############################
+
 menu:
   -
-    Name: "Home"
+    Name: "首页"
     URL: "#home"
     Weight: 1
   
   -
-    Name: "Service"
+    Name: "服务内容"
     URL: "#service"
     Weight: 2
 
   -
-    Name: "About"
+    Name: "关于我们"
     URL: "#about"
     Weight: 3
 
   -
-    Name: "Contact"
+    Name: "联系方式"
     URL: "#contact"
     Weight: 4
 
 ########################## hero area ##########################
 hero:
-  title : "SIYU STIDUO"
+  title : "司瑜STUDIO"
 
   # animated text loop
   occupations:
-    - "Cross-border cooperation in incubation and marketing of domestic and foreign celebrities and artist agents kol"
-    - "Concert planning and production"
-    - "Advertising endorsements"
-    - "Film and television investment and video production information streaming media production"
+    - "国内外明星及艺人经纪kol孵化与营销等跨界合作"
+    - "演唱会策划与制作"
+    - "广告代言宣传发行"
+    - "影视投资与视频制作信息流媒体制作"
 
   # slider background image loop
   slider_image:
@@ -40,7 +41,7 @@ hero:
   # button
   button:
     enable : true
-    label : "Contact us"
+    label : "联系我们"
     link : "#contact"
 
 
@@ -48,7 +49,7 @@ hero:
 fullscreen_nav:
   enable : true
   bg_image : "images/backgrounds/full-nav-bg.jpg"
-  first_name : "SIYU"
+  first_name : "司瑜"
   last_name : "STUDIO"
   
 
@@ -56,57 +57,57 @@ fullscreen_nav:
 about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
-  title : "KNOW MORE <br> ABOUT ME"
-  content : "SIYU STUDIO is a multinational entertainment media studio, engaged in cross-border cooperation such as kol incubation and marketing of domestic and foreign celebrities and artist brokers, concert planning and production, advertising endorsement publicity and distribution, film and television investment and video production information streaming media production culture Media studio, the founder of the company has been engaged in the performing arts industry for 9 years. There are more than 100 celebrity artist activity cooperation cases. The studio has 1,500 domestic and foreign artistes under its control. The studio is committed to achieving integrated marketing in various fields and providing the best resource integration platform ."
+  title : "了解更多 <br> 关于我们"
+  content : "司瑜STUDIO，是一家跨国娱乐传媒工作室，从事国内外明星及艺人经纪kol孵化与营销等跨界合作，演唱会策划与制作，广告代言宣传发行，影视投资与视频制作信息流媒体制作的文化传媒工作室，公司创始人从事演艺行业9年，明星艺人活动合作案例超过百场，工作室旗下合作国内外艺人1500人，本工作室致力实现各领域间的整合营销提供最优质的资源整合平台。"  
 
 ################################### Service ##############################3
 service:
   enable : true
-  title : "SERVICES"
+  title : "服务内容"
   service_list:
     # service item loop
-    - name : "Cross-border cooperation in incubation and marketing of domestic and foreign celebrities and artist agents kol"
+    - name : "国内外明星及艺人经纪MCN跨界合作"
       image : "images/icons/web-development.png"
       
     # service item loop
-    - name : "Concert planning and production"
+    - name : "演唱会策划与制作"
       image : "images/icons/graphic-design.png"
       
     # service item loop
-    - name : "Advertising endorsements"
+    - name : "广告代言"
       image : "images/icons/dbms.png"
       
     # service item loop
-    - name : "Film and television investment and video production information streaming media production"
+    - name : "影视投资与信息流媒体制作"
       image : "images/icons/software-development.png"
 
 ############################## call to action #########################
 call_to_action:
   enable : true
   bg_image : "images/backgrounds/need-service.jpg"
-  title : "NEED A SERVICE?"
+  title : "需要立即提供服务？"
   button:
     enable : true
-    label : "Contact us!"
+    label : "请联系我们！"
     link : "#contact"
 
 ############################## contact ###########################
 contact:
   enable : true
-  title : "Contact us"
+  title : "联系方式"
   methods: 
     -
-      name: "Email"
+      name: "邮箱"
       address: "siyu@siyustudio.com"
 
     -
-      name: "Email"
+      name: "邮箱"
       address: "siyu@siyustudio.com"
 
     -
-      name: "Email"
+      name: "邮箱"
       address: "siyu@siyustudio.com"
 
     -
-      name: "Email"
+      name: "邮箱"
       address: "siyu@siyustudio.com"
